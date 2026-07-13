@@ -13,9 +13,9 @@ EOT
   type = map(object({
     immutability_period_in_days           = number
     storage_container_resource_manager_id = string
-    locked                                = optional(bool) # Default: false
-    protected_append_writes_all_enabled   = optional(bool) # Default: false
-    protected_append_writes_enabled       = optional(bool) # Default: false
+    locked                                = optional(bool)
+    protected_append_writes_all_enabled   = optional(bool)
+    protected_append_writes_enabled       = optional(bool)
   }))
 }
 
